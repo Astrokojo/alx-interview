@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""Description:
+This module contains functions to rotate 2D matrices clockwise.
+
+Usage:
+- Call rotate_2d_matrix_180 to rotate a matrix 180 degrees clockwise.
+"""
 
 
 def rotate_2d_matrix(matrix):
