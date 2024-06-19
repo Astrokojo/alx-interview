@@ -10,6 +10,5 @@ def makeChange(coins, total):
         for j in range(0, len(coins)):
             if coins[j] <= i:
                 subs[i] = min(subs[i], subs[i - coins[j]] + 1)
-  
+
     return -1 if subs[total] > total else subs[total]
-   
